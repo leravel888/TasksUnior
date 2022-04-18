@@ -4,7 +4,6 @@ namespace ConsoleApp1
 {
     class Task4v2
     {
-
         static void Main(string[] args)
         {
             string name;
@@ -27,13 +26,8 @@ namespace ConsoleApp1
             Console.WriteLine("Вас зовут {0}, по знаку зодиака вы {1}, вам {2}, ваш любимый фильм \"{3}\".",
             name, zodiacSign, age, favoriteMovie);
 
-
             Console.ReadKey();
 
         }
-
-
-
-
     }
 }
